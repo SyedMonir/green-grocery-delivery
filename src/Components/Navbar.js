@@ -25,7 +25,7 @@ const Navbar = ({ dark, setDark }) => {
             {/* Mobile */}
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content text-white mt-3 p-2 shadow rounded-box w-52"
+              className="menu menu-compact dropdown-content uppercase text-white mt-3 p-2 shadow rounded-box w-52"
             >
               {menuItem}
             </ul>
@@ -35,7 +35,9 @@ const Navbar = ({ dark, setDark }) => {
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0 text-white">{menuItem}</ul>
+          <ul className="menu menu-horizontal p-0 text-white uppercase">
+            {menuItem}
+          </ul>
         </div>
         <div className="navbar-end">
           {/* Dark Mood */}
