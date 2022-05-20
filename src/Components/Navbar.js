@@ -16,7 +16,7 @@ const Navbar = ({ dark, setDark }) => {
   );
   return (
     <>
-      <div className="navbar bg-primary font-medium min-h-[3.5rem] text-white px-4 py-0 shadow-2xl">
+      <div className="navbar sticky top-0 z-10 bg-primary font-medium min-h-[3.5rem] text-white px-4 py-0 shadow-2xl">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">

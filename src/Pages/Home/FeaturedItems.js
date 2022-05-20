@@ -40,7 +40,7 @@ const FeaturedItems = () => {
           Tab 3
         </Link>
       </div>
-      <section className="grid grid-cols-1 lg:grid-cols-3">
+      <section className="grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-4 mx-4">
         {items?.map((item) => (
           <ItemCard item={item}></ItemCard>
         ))}
