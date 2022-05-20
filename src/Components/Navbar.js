@@ -16,7 +16,7 @@ const Navbar = ({ dark, setDark }) => {
   );
   return (
     <>
-      <div className="navbar bg-primary text-white px-4 py-0 shadow-lg">
+      <div className="navbar bg-primary font-medium min-h-[3.5rem] text-white px-4 py-0 shadow-2xl">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -25,9 +25,9 @@ const Navbar = ({ dark, setDark }) => {
             {/* Mobile */}
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content uppercase text-white mt-3 p-2 shadow rounded-box w-52"
+              className="menu menu-compact dropdown-content uppercase mt-3  shadow  w-52 lg:hidden "
             >
-              {menuItem}
+              <span className="bg-accent ">{menuItem}</span>
             </ul>
           </div>
           <NavLink to={'/'} className="btn btn-ghost normal-case text-xl">

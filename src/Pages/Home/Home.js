@@ -1,11 +1,13 @@
 import React from 'react';
 import Banner from './Banner';
+import FeaturedItems from './FeaturedItems';
 
 const Home = () => {
   return (
-    <section>
+    <>
       <Banner />
-    </section>
+      <FeaturedItems />
+    </>
   );
 };
 

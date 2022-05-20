@@ -7,7 +7,7 @@ module.exports = {
           primary: '#4E944F',
           secondary: '#E9EFC0',
           accent: '#83BD75',
-          neutral: '#F3F4F6',
+          neutral: 'black',
           'base-100': 'white',
           info: '#98A8DD',
           success: '#1BBB70',
@@ -18,9 +18,9 @@ module.exports = {
       {
         dark: {
           primary: '#16222A',
-          secondary: '#FDE68A',
+          secondary: '#16222A',
           accent: '#3A6073',
-          neutral: '#F3F4F6',
+          neutral: 'white',
           'base-100': '#16222A',
           info: '#98A8DD',
           success: '#1BBB70',
