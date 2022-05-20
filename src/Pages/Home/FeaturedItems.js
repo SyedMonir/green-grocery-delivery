@@ -1,7 +1,24 @@
 import React from 'react';
+import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
+import ItemCard from './ItemCard';
 
 const FeaturedItems = () => {
+  const {
+    isLoading,
+    error,
+    data: items,
+  } = useQuery('featuredItems', () =>
+    fetch(`items.json`).then((res) => res.json())
+  );
+  console.log(items);
+
+  if (isLoading) return 'Loading...';
+
+  if (error) {
+    return 'An error has occurred: ' + error.message;
+  }
+
   return (
     <section className="bg-secondary font-semibold">
       <div className="text-center text-neutral py-12">
@@ -12,17 +29,22 @@ const FeaturedItems = () => {
       </div>
 
       {/* Products By Tav */}
-      <div class="tabs">
-        <Link to={'/'} class="tab tab-bordered">
+      <div className="tabs justify-center my-4">
+        <Link to={'/'} className="tab tab-bordered">
           Tab 1
         </Link>
-        <Link to={'/'} class="tab tab-bordered tab-active">
+        <Link to={'/'} className="tab tab-bordered tab-active">
           Tab 2
         </Link>
-        <Link to={'/'} class="tab tab-bordered">
+        <Link to={'/'} className="tab tab-bordered">
           Tab 3
         </Link>
       </div>
+      <section className="grid grid-cols-1 lg:grid-cols-3">
+        {items?.map((item) => (
+          <ItemCard item={item}></ItemCard>
+        ))}
+      </section>
     </section>
   );
 };

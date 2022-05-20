@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './Styles.css';
+import './Home.css';
 import banner1 from '../../assets/image/banner-1.jpg';
 import banner2 from '../../assets/image/banner-2.jpg';
 import banner3 from '../../assets/image/banner-3.jpg';
@@ -63,7 +63,7 @@ const Banner = () => {
               alt={slider?.description}
             />
             <div className="banner_fadeBottom absolute w-full bottom-0 pb-8 text-white">
-              <div class="backdrop-blur-sm bg-white/30 p-6">
+              <div className="backdrop-blur-sm bg-white/30 p-6">
                 <h3 className="text-xl">{slider?.descriptionSmall}</h3>
                 <h2 className="text-3xl">{slider?.description}</h2>
               </div>

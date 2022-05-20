@@ -1,0 +1,47 @@
+[
+  {
+    "image": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "hoverImage": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "name": "Name",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus.",
+    "price": 34,
+    "discountPrice": 30,
+    "category": "category"
+  },
+  {
+    "image": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "hoverImage": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "name": "Name",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus.",
+    "price": 34,
+    "discountPrice": 30,
+    "category": "category"
+  },
+  {
+    "image": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "hoverImage": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "name": "Name",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus.",
+    "price": 34,
+    "discountPrice": 30,
+    "category": "category"
+  },
+  {
+    "image": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "hoverImage": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "name": "Name",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus.",
+    "price": 34,
+    "discountPrice": 30,
+    "category": "category"
+  },
+  {
+    "image": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "hoverImage": "https://images.news18.com/ibnlive/uploads/2021/09/kiwi.jpg",
+    "name": "Name",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, possimus.",
+    "price": 34,
+    "discountPrice": 30,
+    "category": "category"
+  }
+]

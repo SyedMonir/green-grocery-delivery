@@ -10,7 +10,7 @@ const Navbar = ({ dark, setDark }) => {
         <NavLink to={'/shop'}>Shop</NavLink>
       </li>
       <li>
-        <NavLink to={'/login'}>Login</NavLink>
+        <NavLink to={'/signup'}>Signup</NavLink>
       </li>
     </>
   );

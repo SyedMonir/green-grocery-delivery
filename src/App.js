@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Signup from './Components/Signup';
 import Home from './Pages/Home/Home';
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <Navbar dark={dark} setDark={setDark} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </section>
   );
