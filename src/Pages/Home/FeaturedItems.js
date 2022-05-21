@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
+import Spinner from '../../Components/Spinner/Spinner';
 import ItemCard from './ItemCard';
 
 const FeaturedItems = () => {
@@ -11,9 +12,11 @@ const FeaturedItems = () => {
   } = useQuery('featuredItems', () =>
     fetch(`items.json`).then((res) => res.json())
   );
-  console.log(items);
+  // console.log(items);
 
-  if (isLoading) return 'Loading...';
+  if (isLoading) {
+    return <Spinner />;
+  }
 
   if (error) {
     return 'An error has occurred: ' + error.message;
