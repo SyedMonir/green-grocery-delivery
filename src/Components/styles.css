@@ -1,13 +1,14 @@
 .navbar ul li a {
     color: white;
     margin: 0px 5px;
+    border-radius: 0 !important;
     border-bottom: 2px solid transparent;
 }
 
 .navbar ul li a.active {
     color: #E9EFC0;
     font-weight: 500;
-    border-bottom: 2px solid #4E944F;
+    border-bottom: 2px solid white;
 }
 
 .navbar .dropdown-content a.active {

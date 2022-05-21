@@ -5,7 +5,7 @@ import Spinner from './Spinner/Spinner';
 import { FcGoogle } from 'react-icons/fc';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BsFillEyeFill, BsFillEyeSlashFill } from 'react-icons/bs';
-import login from '../assets/image/login1.jpg';
+import login from '../assets/image/login.jpg';
 
 const Login = () => {
   // Show Password
